@@ -1,0 +1,530 @@
+[
+    {
+        "id": "1glvt11",
+        "title": "How do you cope up with the Stress?",
+        "content": "I work at a 3PL, overseeing about 60 FFE shipments weekly. Lately, I've been feeling overwhelmed by juggling various issues simultaneously, including vendor, warehousing, carrier, and client management. It's becoming stressful to keep track of all the exceptions and communications from each party. How do you handle such situations?",
+        "subreddit": "logistics",
+        "author": "crack71",
+        "upvotes": 16,
+        "created_at": "2024-11-07T17:23:51+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1glvt11/how_do_you_cope_up_with_the_stress/",
+        "comments": [
+            {
+                "author": "bdb5780",
+                "content": "I used to do that, before ChAtGPT I had a set process to CM(Y)A. My boss hated my email system (inbox zero) with folders for everything based on the segment (Shipper, Carrier, origin agent, destination agent, trucker, etc) I did this with 125 shipments a week, FCL, LCL and Air. Having it all organized made things so much easier. Combining that with Quick steps and reminders saved me sooo many headaches. \n\nUltimately you need to teach your people (origin, shipper, destination agent, trucker, etc) how you want/expect things. Once you get that done it runs smooth, things happen but as long as you plan and prepare you should be fine. If you don't do anything, that's when the stress happens. \n\nAutomate as much as you can and look at the process constantly to see how you can simplify it. \n\nI use Chat GPT and other AI programs hourly to make adjustments. \n\nCarriers will respond to you if you threaten to take the work if they aren't doing it to the level you need. Short pay for incorrect ppwk and be on the lookout for new carriers.",
+                "upvotes": 12,
+                "created_at": "2024-11-07T17:36:04+00:00"
+            },
+            {
+                "author": "scmsteve",
+                "content": "Two main points from much experience here:\n1. Stress is often the bi-product of poor time management. Not always but often. If you designate 30 min time periods throughout the day for different task, you will find that you can dip into the most major parts of your AOR each day. You have to stick with it. If something urgent comes up and requires your immediate attention (always, I  know) then do it and return to your task window of time. \n\n2. Those of us that are diligent tend to take things personally when they don\u2019t go as planned. If there are things not under your direct control, let that shit go. I took all failures of other people and it ate me up. I\u2019m speaking mainly of internal operations like sales or finance. If it\u2019s a vendor making your life miserable, replace them. If it employees that report to you, replace them. But let what you can\u2019t fully control go.",
+                "upvotes": 4,
+                "created_at": "2024-11-07T20:45:40+00:00"
+            },
+            {
+                "author": "lazysmartdude",
+                "content": "The most important lesson I learned in the last decade is that everyone thinks their request is the most urgent. \n\n\nEverything is important in your role, this is not being disputed. \n\n\nIt is up to you to take that step back from the urgent request you received while working on the other urgent request you received earlier to breath and not fall for the faux pressure being put on you. You know what will take 10 minutes and what will take 2 hours, not the person on the other end of the phone/email.\n\n\nPersonally, I start the day and bang out the quick tasks first. Then move onto the more detailed requests, and towards the end of the day start on the newest requests. \n\n\nI do get pulled away from this plan throughout the day to handle truly urgent and time sensitive items and that's ok. Handle that and then get back to the plan you made at the start of the day. \n\n\nAs other commentors have said, this is all about time management in the end and having an understanding of your abilities and your company and customers needs overall will help you navigate each day. There is always tomorrow and there is always more.",
+                "upvotes": 3,
+                "created_at": "2024-11-07T21:57:16+00:00"
+            },
+            {
+                "author": "WatchOutForDeer12",
+                "content": "I sip whiskey",
+                "upvotes": 3,
+                "created_at": "2024-11-08T04:09:28+00:00"
+            },
+            {
+                "author": "Interesting-Year2015",
+                "content": "Man, that sounds rough. honestly, the best way to deal with this kinda stress is to stop trying to keep everything in your head: write stuff down or use some tools to track it all. also, remember you\u2019re not a superhero; delegate when you can, and let some stuff wait if it\u2019s not urgent. and seriously, take a break when it\u2019s all too much.. you\u2019ll do better after clearing your head a bit. (at least that's what worked for me).",
+                "upvotes": 2,
+                "created_at": "2024-11-18T08:43:07+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1gl827c",
+        "title": "Startup 3PL WMS Solution - Excel?",
+        "content": "I'm planning a 3PL warehouse focused on FBA prep and order fulfillment (FBM, Shopify, etc.). I've been searching for an affordable and functional WMS, but many options seem to be just private label software. Although I\u2019m in the planning stage with my partners and this may not come to fruition, I need a WMS to create an accurate budget. While I find Excel tedious and inefficient, it seems like the best low-cost starting point for us. Eventually, I plan to upgrade based on order volume. We're considering a warehouse around 2800 sq ft, but we're unsure of our volume and expect to start with 3-5 people, mostly family and friends. Any suggestions or feedback?",
+        "subreddit": "logistics",
+        "author": "Super-Style482",
+        "upvotes": 12,
+        "created_at": "2024-11-06T20:20:58+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1gl827c/startup_3pl_wms_solution_excel/",
+        "comments": [
+            {
+                "author": "barrettshepherdsimpl",
+                "content": "I've run a 3PL for the last 8 years, so I can share our journey with warehouse management systems. Starting out, I'd recommend using ShipStation or similar solutions over Excel as your basic foundation.\n\nIn our early days, we used SkuLabs until we outgrew it. We then switched to SHero, which we've been using for the past 6 years. While SHero is comprehensive, it isn't cheap, so I'd hesitate to recommend it to someone just starting a 3PL.\n\nCurrently, we're exploring alternatives to SHero for various reasons (happy to discuss privately). Some options we've looked into include:\n\n* Warehance: A really solid and more affordable solution started by my friend who also used to use SHero\n* Packiyo: Created by an ex-SHero founder, seems fairly solid but lacked some features we needed\n* Logiwa: Another established option in the space\n\nWe've been moving over to Warehance and it's been working out really well for us. In this industry, you'll likely end up using one of the major players like SHero, Logiwa, or similar solutions as you grow.",
+                "upvotes": 5,
+                "created_at": "2024-11-06T20:45:20+00:00"
+            },
+            {
+                "author": "palletized",
+                "content": "Hey. \n\nI work with various 3PL clients that are primarily doing FBA prep. I really like Hopstack for the FBA part simply because the depth I have seen them go into with their Amazon flows. Dealing with Amazon is really tricky as everyone knows, and I have gone through switching many softwares before settling on Hopstack. Most importantly the customer service is awesome which is what you want from your WMS provider:\n\nHowever, I see that a lot of new merchants are also getting into starting prep businesses or starter 3PL businesses like yourself. Hopstacks main platform is prolly an overkill. So they have another product that was launched a while ago called Ignite that focusses on starter businesses. I\u2019ll highly recommend that. The alternatives that I have tried like scanpower, prepshiphub haven\u2019t been that great for my clients.\n\nYou can also stitch something together with excel and airtable, but the effort involved might not be worth your time. So I suggest keeping 200-300$ as a monthly budget for the software.",
+                "upvotes": 2,
+                "created_at": "2024-11-07T06:29:54+00:00"
+            },
+            {
+                "author": "delivergreat",
+                "content": "Check out Packiyo, its a perfect solution for a 3PL or brand that is either just starting out or looking to get out an expensive and complicated solution. The platform is super intuitive, yet scalable.",
+                "upvotes": 2,
+                "created_at": "2024-11-07T12:30:28+00:00"
+            },
+            {
+                "author": "mlopez1120",
+                "content": "You're right on the fact that most WMS's started as spinoffs created by 3PL's. What you'll need is a platform that can connect with most of the retailers/distributors you'll be working with: Amazon, Walmart, Best Buy, Costco, Netsuite, Shopify, WooCommerce, etc... \n\nMake sure you get a WMS that helps you with integrating with most of the providers mentioned above as you never know where your journey may take you. Here's what I use: item(dot)com",
+                "upvotes": 1,
+                "created_at": "2024-11-06T20:28:52+00:00"
+            },
+            {
+                "author": "Tomlambro",
+                "content": "Lookup free online solutions ? Very basic WMS organise inbound / outbound operations and trace stock movements.\n\nThat's the minimum.\n\nExcel is ok to look at stock positions, or current level of stock, but is ill equipped to register all the operations that happen.",
+                "upvotes": 1,
+                "created_at": "2024-11-06T20:55:16+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1grvuzl",
+        "title": "3PL Question",
+        "content": "I'm seeking a reputable 3PL company for my online clothing brand. Ideally, I'd like them to be based in the USA, but they should also offer international shipping. I typically have 200-1000 items with about 15-20 different SKUs. My manufacturer will send everything at once, and I need the 3PL to store and ship them accurately as needed. What are some good options?",
+        "subreddit": "logistics",
+        "author": "InternationalSkin302",
+        "upvotes": 10,
+        "created_at": "2024-11-15T13:02:56+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1grvuzl/3pl_question/",
+        "comments": [
+            {
+                "author": "pleaseleevmealone",
+                "content": "Oh man, your poor DMs. \n\nThe biggest (most expensive) players in the game are Geodis and Radial. You are probably looking for a bit smaller based on your volume. 3PLs price based on storage, pick and pack, and shipping. In my experience ShipBob and Cart.com are hit and miss by location. Stord is a shitshow, but may be a good fit for a smaller brand like yours. They just bought some excellent pitney bowes facilities. Pick a provider based on proximity to your average customer, tour the facility and ask lots of questions about their processes. Good luck!",
+                "upvotes": 6,
+                "created_at": "2024-11-15T16:10:06+00:00"
+            },
+            {
+                "author": "SHFJ4-4",
+                "content": "Warehut is probably your best option.",
+                "upvotes": 2,
+                "created_at": "2024-11-16T03:11:34+00:00"
+            },
+            {
+                "author": "freightforwardus",
+                "content": "So what exactly are you looking for the 3PL to do? Warehousing, shipping, and international? Would the 3PL be doing pick and pack at the warehouse? Are these coming/going palletized? Couple different things to think about when searching for a 3PL",
+                "upvotes": 1,
+                "created_at": "2024-11-15T15:01:29+00:00"
+            },
+            {
+                "author": "dskot",
+                "content": "AMZ Worldwide",
+                "upvotes": 1,
+                "created_at": "2024-11-15T19:03:55+00:00"
+            },
+            {
+                "author": "Tall_Category_304",
+                "content": "Austin? That you?",
+                "upvotes": 1,
+                "created_at": "2024-11-15T21:32:40+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1glb3cr",
+        "title": "What roles should I look at with my experience as a logistics coordinator for four years at one company? What training should I work on to find a job in the next couple of years?",
+        "content": "I have worked in my current job for seven years and have held a logistics position since 2020. My initial training lasted a month, and I've since pursued additional self-directed training through free seminars. My company is struggling with declining sales and material shortages, and they do not offer ongoing training support. Consequently, I am considering seeking new job opportunities and training. I prefer remote work but am open to relocating to a blue state from my current deep red one. I earn $51,000 in my current role, which involves importing finished goods from Central America (handling ISFs, coordinating with warehouses and 3PLs) and exporting materials (making bookings, creating MBOLs and commercial invoices, filing EEIs in AES, and providing paperwork to 3PLs). I also coordinate freight for timely air shipments and ensure compliance with C-TPAT regulations. I've saved my company thousands by optimizing our logistics and created actual SOPs from inadequate initial guidance. I also persuaded our company to certify our shippers in HAZMAT after the only certified employee left. While I have valuable experience, I'm uncertain about what roles to pursue or what training to focus on. I doubt I would excel in sales, as I have no experience in that area. Having only worked at one company with limited formal training, I\u2019m unsure how I measure up against candidates with degrees or diverse backgrounds. I'm not seeking a high salary, just a comfortable living.",
+        "subreddit": "logistics",
+        "author": "Gaelfling",
+        "upvotes": 6,
+        "created_at": "2024-11-06T22:29:38+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1glb3cr/what_roles_should_i_look_at_with_my_experience_as/",
+        "comments": [
+            {
+                "author": "Status-Accountant-94",
+                "content": "You have a strong foundation in logistics coordination, compliance, and cost-saving initiatives. Given your experience, consider roles like *Logistics Manager*, *Import/Export Specialist*, or *Supply Chain Analyst*. Since you're interested in remote work, these roles are commonly available in industries with distributed teams.",
+                "upvotes": 2,
+                "created_at": "2024-11-07T11:19:59+00:00"
+            },
+            {
+                "author": "chrislovzlife",
+                "content": "Remote jobs aren\u2019t a real thing in logistics right now unless you work for a shipper but you probably won\u2019t even make $51k at a shipper more like $17 hr \n\nSales at 3PL can be remote but be prepared to work your face off and get told no 500k times a day and you have to be really accountable and self motivated. Starting salary for sales role probably $45k if you\u2019re lucky with OTE at 80k first year (so they say) will probably take you longer than a year to land any decent customers",
+                "upvotes": 2,
+                "created_at": "2024-11-07T21:55:17+00:00"
+            },
+            {
+                "author": "fishingandstuff",
+                "content": "Here\u2019s what ChatGPT thinks: With four years of logistics experience in your current role, there are solid opportunities in both advanced logistics and operations positions. Here are some potential roles and recommended training:\n\nSuggested Roles\n\n\t1.\tLogistics Analyst or Supply Chain Analyst\nYour experience with import/export, cost-saving, and SOP creation is directly relevant. Analysts often support data-driven improvements, helping companies optimize their supply chain and cut costs.\n\t2.\tImport/Export Compliance Specialist\nMany companies seek specialists familiar with ISFs, AES filings, C-TPAT, and hazardous materials. This role leverages your compliance knowledge and could allow you to expand into trade compliance.\n\t3.\tOperations Coordinator/Operations Specialist\nOften similar to logistics but with broader focus on day-to-day operations, process improvements, and cross-departmental coordination.\n\t4.\tLogistics Manager or Supply Chain Coordinator\nIf you\u2019re interested in management, these roles would allow you to use your SOP creation and coordination experience to lead a team or manage a segment of a larger supply chain.\n\nRecommended Training\n\n\t1.\tC-TPAT Certification & Export Compliance Training\nCourses in compliance will reinforce your understanding of regulations and could make you a more competitive candidate for roles emphasizing safety and compliance.\n\t2.\tFreight Forwarding and Customs Brokerage Training\nGaining more advanced knowledge in freight forwarding and customs brokerage (even if you won\u2019t be performing these roles) can broaden your logistics skill set.\n\t3.\tData Analytics in Logistics\nConsider a course in data analytics (e.g., Excel, Power BI, or Python for data analysis) to give you a competitive edge for analyst roles, helping you better track and report on logistics KPIs.\n\t4.\tProject Management Certification (PMP or CAPM)\nProject management can strengthen your ability to coordinate complex logistics operations. Even a basic certification can be beneficial.\n\nGeneral Tips\n\n\t\u2022\tHighlight Your Savings and Efficiency Contributions on your resume, as they are valuable to companies looking to improve margins and streamline processes.\n\t\u2022\tNetwork in Logistics Communities online or through free webinars. Engaging in forums and attending webinars can help you find job leads and keep up with industry trends.\n\nStarting with these roles and training can help you build a solid foundation for advancing in logistics or pivoting to a related area.",
+                "upvotes": 1,
+                "created_at": "2024-11-11T12:36:12+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1gdsaej",
+        "title": "In the Weeds",
+        "content": "I work for a global 3PL company in transportation, and we are currently in peak season. Right before this busy time, we took on a strict new global customer, which has added to the pressure. As an assistant operations manager overseeing a shift without a manager, I rely on temporary workers for entry-level roles, but high turnover due to peak stress and the complexity of the new customer\u2019s YMS is overwhelming me. I\u2019m training new hires every few weeks, and the repetitive tasks are making me uncomfortable. None of the shifts are adequately staffed, and since I\u2019m one of the few familiar with all three YMS systems, I\u2019m shouldering the responsibility for all shifts. I work three 12-hour shifts on weekends and often take work home, even coming in during the week to help. This week has been particularly tough, and I\u2019ve felt like quitting every day due to having to address errors across all shifts while managing my own operations. I would appreciate any advice on maintaining operations and keeping my sanity during this incredibly understaffed peak season. \ud83e\udd72\ud83e\ude77",
+        "subreddit": "logistics",
+        "author": "mothersufferr",
+        "upvotes": 6,
+        "created_at": "2024-10-28T02:53:27+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1gdsaej/in_the_weeds/",
+        "comments": [
+            {
+                "author": "bac0467",
+                "content": "Have you written down an SOP so you don\u2019t have to keep explaining yourself or outlining every process?",
+                "upvotes": 4,
+                "created_at": "2024-10-28T02:56:20+00:00"
+            },
+            {
+                "author": "gm4dm101",
+                "content": "Transportation logistics is such a pain.  I don\u2019t blame those employees for leaving.  The situation is just bad.  I would love to know a place that had \u201cgood\u201d transportation logistics.",
+                "upvotes": 3,
+                "created_at": "2024-10-28T06:53:12+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1gew686",
+        "title": "What tips do you have for successfully getting out of TL operations?",
+        "content": "I currently work in operations at an asset-based 3PL company, primarily acting as a dispatcher and managing our freight brokerage alone. I'm feeling burnt out due to the chaos of operating both an asset-based model and a brokerage. My company doesn\u2019t provide support, as they refuse to hire additional help despite our growth, and management operates in an outdated manner, making modernization difficult. Our primary focus is distribution, and the trucking side is secondary, leading to my role being undervalued; I'm often expected to quickly find trucks for outbound deliveries. While I'm not frustrated with my responsibilities, I'm exhausted from addressing customer issues and managing drivers. I believe I could thrive in TMS software sales or support, where I can leverage my transportation knowledge without the daily shipment pressures. Has anyone successfully transitioned from operations to a logistics-related role? If so, what are you doing now and how is your financial situation?",
+        "subreddit": "logistics",
+        "author": "Set_the_tone-",
+        "upvotes": 5,
+        "created_at": "2024-10-29T14:37:37+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1gew686/what_tips_do_you_have_for_successfully_getting/",
+        "comments": [
+            {
+                "author": "Worldly_Bid7386",
+                "content": "I relate to you dude, I\u2019m an account manager for a 3PL and I\u2019ve been here for about 1 yr and 3 months. I\u2019m burnt out, plain and simple",
+                "upvotes": 2,
+                "created_at": "2024-10-29T21:07:21+00:00"
+            },
+            {
+                "author": "mattdamonsleftnut",
+                "content": "What\u2019s your title?",
+                "upvotes": 1,
+                "created_at": "2024-10-29T17:46:21+00:00"
+            },
+            {
+                "author": "Unlikely-Author-9068",
+                "content": "Any trucking company or brokerage will take you. But question what you want to be sales or ops?",
+                "upvotes": 1,
+                "created_at": "2024-10-30T21:10:48+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1gfeh3y",
+        "title": "Micro 3PL Search",
+        "content": "Seeking a personalized Micro 3PL for small, delicate, high-value items. I'm open to paying for premium care. The order volume is small, and a low temperature of around 70 degrees is necessary. Any recommendations would be appreciated. A large warehouse is unnecessary; everything can fit in a standard refrigerator.",
+        "subreddit": "logistics",
+        "author": "reguru2023",
+        "upvotes": 4,
+        "created_at": "2024-10-30T04:26:37+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1gfeh3y/micro_3pl_search/",
+        "comments": [
+            {
+                "author": "EmergencyExample1582",
+                "content": "I own valley high logistics. We\u2019re a small veteran owned business. Happy to discuss your needs. DM me.",
+                "upvotes": 2,
+                "created_at": "2024-11-04T02:10:52+00:00"
+            },
+            {
+                "author": "Kind_Knee_5956",
+                "content": "Hi, i have a 3PL company located in New Jersey. Shoot me a DM or you can also contact me through following email and phone.\nekirveli@krvlogistics.com\n773 923 8003",
+                "upvotes": 2,
+                "created_at": "2024-11-04T15:44:37+00:00"
+            },
+            {
+                "author": "avocado_oil_fan",
+                "content": "Warehut, hands down.",
+                "upvotes": 1,
+                "created_at": "2024-10-31T09:59:53+00:00"
+            },
+            {
+                "author": "Aggravating_Pick_108",
+                "content": "3pl owner here, DM me.",
+                "upvotes": 1,
+                "created_at": "2024-10-31T12:49:45+00:00"
+            },
+            {
+                "author": "WolverinePrimary1802",
+                "content": "i have these services available nation wide 24/7. ill be pming",
+                "upvotes": 1,
+                "created_at": "2024-10-31T14:33:49+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1gqhrt6",
+        "title": "Looking for a US T86 entry broker for ecommerce goods entering by truck from Canada",
+        "content": "Hello r/Logistics, I am consulting for a company seeking a US customs broker to manage T86 entries for e-commerce goods transported by truck across the northern border. They currently handle about 5,000 entries per day, with an increase during peak times, and ship six days a week year-round. While only a fraction of these entries are available for this opportunity, it is a permanent position, and the volume of T86 filings is likely to rise due to increasing regulations in the US. The client is an established e-commerce 3PL with a reliable client base and holds all necessary FDA, Health Canada, and other licenses. They deal with a variety of regulated and non-regulated products, including food, dietary supplements, and household goods, with most originating from the US, Canada, or China. Currently, they use a mix of S321, T86, informal, and formal entries. They seek competitive pricing from a broker experienced in e-commerce, capable of handling bulk entry submissions via Excel or API/EDI. The product range is stable, featuring well-known brands with long lifecycles, and involves minimal imports of the same products to different consignees. They aim to launch ASAP, possibly starting as soon as next week if they find the right partner. They are interested only in brokers with significant experience in e-commerce T86. Future daily trucking opportunities may also arise based on the partnership. This could become a multi-million dollar account for a brokerage or forwarder that meets their service and product needs. Please DM me for more details if you think you can help.",
+        "subreddit": "logistics",
+        "author": "takeoff_power_set",
+        "upvotes": 3,
+        "created_at": "2024-11-13T17:06:07+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1gqhrt6/looking_for_a_us_t86_entry_broker_for_ecommerce/",
+        "comments": [
+            {
+                "author": "WolverinePrimary1802",
+                "content": "I can help you. Send me a message.",
+                "upvotes": 2,
+                "created_at": "2024-11-14T13:40:52+00:00"
+            },
+            {
+                "author": "Suitable-Scholar-778",
+                "content": "Good luck in your search",
+                "upvotes": 1,
+                "created_at": "2024-11-13T22:09:55+00:00"
+            },
+            {
+                "author": "Responsible_Value878",
+                "content": "We might be able to help your client out, who should I reach out to?",
+                "upvotes": 1,
+                "created_at": "2024-11-15T00:00:21+00:00"
+            },
+            {
+                "author": "Sharp-Letter-3586",
+                "content": "Good evening I would be happy to connect my team. I work with the nation's 2nd leading brokerage. What is the best way to directly get in touch?",
+                "upvotes": 1,
+                "created_at": "2024-11-16T02:31:45+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1gl41ck",
+        "title": "Looking to acquire a New Jersey 3PL",
+        "content": "Hello everyone, I'm seeking to acquire a 3PL facility near New Jersey ports. It needs to have a warehouse of over 100,000 sq ft with a ceiling height above 21 feet, and be located within an hour's drive from the ports. Please DM me if you have any leads.",
+        "subreddit": "logistics",
+        "author": "charlesholmes1",
+        "upvotes": 3,
+        "created_at": "2024-11-06T17:33:30+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1gl41ck/looking_to_acquire_a_new_jersey_3pl/",
+        "comments": [
+            {
+                "author": "akidinrainbows",
+                "content": "The way this is written, I thought he was looking buy a company.  lol",
+                "upvotes": 2,
+                "created_at": "2024-11-07T03:58:26+00:00"
+            },
+            {
+                "author": "WolverinePrimary1802",
+                "content": "I am your guy",
+                "upvotes": 1,
+                "created_at": "2024-11-06T17:45:46+00:00"
+            },
+            {
+                "author": "Interesting_Bit_7950",
+                "content": "Let\u2019s talk",
+                "upvotes": 1,
+                "created_at": "2024-11-06T19:20:48+00:00"
+            },
+            {
+                "author": "Ok-Baseball-4520",
+                "content": "Hello, this sounds perfect for our 3PL.  Please DM with info.",
+                "upvotes": 1,
+                "created_at": "2024-11-07T19:17:13+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1gpp5ht",
+        "title": "Transferable skills?",
+        "content": "Hello everyone, I've been working in a logistics role as a 3PL for about a year at a large company that focuses exclusively on serving external customers in the rail sector. While I enjoy my current position, I plan to relocate in the next year. I'm uncertain whether to continue in the rail industry, given its niche nature, or explore opportunities outside my current experience. I recognize that my skills are transferable within logistics and that I could pursue various B2B account management roles. Should I focus on rail job openings or consider other logistics positions like procurement or trucking? Also, who is hiring remotely or in the Pacific Northwest?",
+        "subreddit": "logistics",
+        "author": "CarterTheWay",
+        "upvotes": 3,
+        "created_at": "2024-11-12T16:47:06+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1gpp5ht/transferable_skills/",
+        "comments": [
+            {
+                "author": "reabsco",
+                "content": "Rail is a cluster Fck and if you can learn it quickly, then that knowledge will transfer to other modes. Absolutely, do not limit yourself to rail only. Multi-modal customers will appreciate someone that knows different ways they can save $ or different services. It's going to Ruth Chris's and always getting the salad. It's good but don't limit yourself.",
+                "upvotes": 2,
+                "created_at": "2024-11-12T17:07:26+00:00"
+            },
+            {
+                "author": "squarepeg101",
+                "content": "Niche roles are a double edge sword...you'll have trouble finding the perfect fit, but when you do you are in high demand without much competition.    I suggest trying to get on the shipper side as a in house logistics manager.    \nYour experience will make you a Rockstar in house.",
+                "upvotes": 1,
+                "created_at": "2024-11-12T23:10:41+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1gs2bab",
+        "title": "Boss wants to get back on Prime",
+        "content": "We ship out of the north east.\nPeak season is 3500-4000 orders six days a week (April - June)\nThese can be oversized / non case shipments so likely would need someone to ship on our accounts. Would love to cover as much of the country in Zone 4 as possible.\n\nLooking for a 3PL partner with West (Reno perhaps), Texas focused (OKC?) and Southeast.\n\nAny thoughts?",
+        "subreddit": "logistics",
+        "author": "silver_sAUsAGes",
+        "upvotes": 2,
+        "created_at": "2024-11-15T17:55:34+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1gs2bab/boss_wants_to_get_back_on_prime/",
+        "comments": [
+            {
+                "author": "RetroShip",
+                "content": "We have one location (AZ), but I own and operate Retroship.\n\nYou are welcome to use your own carriers or ours, whatever saves you the most in shipping (we have fantastic rates with UPS for larger shipments).",
+                "upvotes": 2,
+                "created_at": "2024-11-15T23:55:08+00:00"
+            },
+            {
+                "author": "fleetwood96",
+                "content": "Followed up with a DM!",
+                "upvotes": 1,
+                "created_at": "2024-11-15T18:05:42+00:00"
+            },
+            {
+                "author": "KEIGHWAR",
+                "content": "Dm\u2019d",
+                "upvotes": 1,
+                "created_at": "2024-11-15T18:54:59+00:00"
+            },
+            {
+                "author": "Mirimirii",
+                "content": "If you are looking in Midwest, I can help",
+                "upvotes": 1,
+                "created_at": "2024-11-15T21:58:33+00:00"
+            },
+            {
+                "author": "Comedy1010",
+                "content": "DM\u2019d. Based in reno. Warehouse, capacity, let me know!",
+                "upvotes": 1,
+                "created_at": "2024-11-15T22:33:20+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1gqcc28",
+        "title": "Is there a name for this service? And is it common?",
+        "content": "We\u2019re a 3PL with 2 warehouses. A potential client has his own warehouse already and all his staff but they have no WMS and nobody internally to be able to implement one. (They tried a year ago, spent $150k and failed) \n\nSo we\u2019re discussing with them that we would add a warehouse to our WMS, onboard them, train their staff to use our system. \n\nBenefit would be smooth on-boarding, support (we\u2019re 5 minutes away), use of our carrier prices. \n\nBut we would not technically operate daily activities there.\n\nSo my question is, is this common? Does it have a name? ",
+        "subreddit": "logistics",
+        "author": "Wyvern78",
+        "upvotes": 2,
+        "created_at": "2024-11-13T13:01:03+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1gqcc28/is_there_a_name_for_this_service_and_is_it_common/",
+        "comments": [
+            {
+                "author": "PreludeTilTheEnd",
+                "content": "Consulting",
+                "upvotes": 11,
+                "created_at": "2024-11-13T15:01:56+00:00"
+            },
+            {
+                "author": "RealMacMittens",
+                "content": "This sounds almost like SaaS (software as a service) if all you're providing them with is a WMS and training.",
+                "upvotes": 7,
+                "created_at": "2024-11-13T15:44:47+00:00"
+            },
+            {
+                "author": "Bearjupiter",
+                "content": "I wouldn\u2019t say its common but as long as its minimal to no risk for you, with an adequate agreement and compensation- why not?\n\nYou\u2019d also have access to the data which could be valuable.\n\nThe opportunity I see here, is when the lease is up on their current space, on board them into your company - since all the data and set up will be there.",
+                "upvotes": 6,
+                "created_at": "2024-11-13T15:45:16+00:00"
+            },
+            {
+                "author": "eseerms",
+                "content": "I would avoid this at all costs.  The IT side of this could become a nightmare if things go south.",
+                "upvotes": 2,
+                "created_at": "2024-11-13T20:01:49+00:00"
+            },
+            {
+                "author": "Baconaise",
+                "content": "I always love hearing this because so many companies blow $100k or more when typical onboarding fees are closer to $5-20k for a single warehouse and annual service fees are closer to $20k-40k for most of the modern saas softwares we hear about people implementing\n\nBut fuck modern saas for not having a pushy sales rep showing up at your door asking for quadruple the price I guess.",
+                "upvotes": 2,
+                "created_at": "2024-11-13T22:45:11+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1g9sh9c",
+        "title": "Is it viable to create a package forwarding business using a 3PL or similar provider?",
+        "content": "I've discovered a niche of delivery services that most merchants don't support since they require merchant integration. I'm exploring the idea of creating a package forwarding service. The idea being that I can provide a standard address, receive their package from UPS/FedEx/etc, then forward the package through the desired delivery service as I would integrate with these other delivery services. \n\nIs this something that is feasible to do? Are there 3PL providers that can intake a single package and ship it out (ideally with no warehousing) for a reasonable fee?  \n  \nI don't know much about 3PL or logistics, so I'm fairly out of my depth on the logistics side of this idea. ",
+        "subreddit": "logistics",
+        "author": "leros",
+        "upvotes": 2,
+        "created_at": "2024-10-22T20:40:04+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1g9sh9c/is_it_viable_to_create_a_package_forwarding/",
+        "comments": [
+            {
+                "author": "First_Status668",
+                "content": "I don't really see a widely known use case for this type of service because of how prevalent po boxes, parcel lockers and postal annexes are.  However, I have worked with several companies that do this for international shipments where the end customers don't have a means of shipping into themselves since they're not in the US.  What type of shipments/products are you envisioning?",
+                "upvotes": 4,
+                "created_at": "2024-10-23T02:20:11+00:00"
+            },
+            {
+                "author": "GrouchyAd927",
+                "content": "There are a lot of services out there that do this. Shipito, MyUS, and PlanetExpress are a few examples.",
+                "upvotes": 3,
+                "created_at": "2024-10-22T21:14:56+00:00"
+            },
+            {
+                "author": "AZWL3PL",
+                "content": "I run a 3PL in AZ I'm interested in the idea and we currently do case/shipment forwarding for FBA. Sounds similar to what your trying to do",
+                "upvotes": 1,
+                "created_at": "2024-10-23T15:59:35+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1gnnhwc",
+        "title": "Looking to buy a USA 3PL.",
+        "content": "DM if you\u2019re looking to sell! :)",
+        "subreddit": "logistics",
+        "author": "Defiant-Rabbit-841",
+        "upvotes": 1,
+        "created_at": "2024-11-09T23:53:18+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1gnnhwc/looking_to_buy_a_usa_3pl/",
+        "comments": [
+            {
+                "author": "StolenLabias",
+                "content": "What multiple are you paying ?",
+                "upvotes": 2,
+                "created_at": "2024-11-10T13:20:19+00:00"
+            },
+            {
+                "author": "RedkikinIt2023",
+                "content": "When you close\u2026 hit me up and let\u2019s get you integrated with transactional shippers interest policies. Redkik.com attn: Petey",
+                "upvotes": 1,
+                "created_at": "2024-11-13T12:44:16+00:00"
+            },
+            {
+                "author": "needhelptoday2023",
+                "content": "DMing you",
+                "upvotes": 0,
+                "created_at": "2024-11-10T00:42:24+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1giiz2u",
+        "title": "Freelance Analyst Available \u2013 Data Insights to Optimize Your Supply Chain and Reduce Costs",
+        "content": "Hi everyone! \ud83d\udc4b\n\nI\u2019m a freelance data analyst specializing in logistics and supply chain optimization. If you\u2019re looking to streamline your operations, cut down costs, or improve delivery efficiency, I can help turn your logistics data into actionable insights.\n\n**Here\u2019s How I Can Help:**\n\n* **Inventory Optimization**: Identify optimal stock levels to avoid overstocking or stockouts, ensuring smooth operations and cost savings.\n* **Demand Forecasting**: Use historical data to predict demand patterns, helping you allocate resources effectively and prevent wastage.\n* **Route Optimization**: Analyze and optimize delivery routes to reduce fuel costs, travel time, and improve delivery efficiency.\n* **Cost Analysis & Reduction**: Pinpoint areas where you might be overspending in logistics, from warehousing to transport, and suggest data-backed ways to cut costs.\n* **Fleet Management Insights**: Track and analyze fleet performance, from maintenance schedules to usage patterns, to increase efficiency and reduce downtime.\n* **Real-Time Tracking & Alerts Setup**: Set up data-driven alerts and dashboards that monitor logistics KPIs in real-time for faster decision-making.\n\n**How It Works**: We start with a free consultation where I get to know your business, challenges, and goals. After a thorough data analysis, I provide an actionable plan tailored to your unique needs, and I can work with your team on an ongoing basis to track progress and adjust as necessary.\n\n**Interested?**  \nFeel free to DM me or reply here if you\u2019re curious about how data analytics can make a difference in your logistics operations! I\u2019d be happy to discuss.\n\nLet\u2019s turn your logistics data into your competitive advantage! \ud83d\ude9b\ud83d\udcca",
+        "subreddit": "logistics",
+        "author": "mutheu-DataAnalyst",
+        "upvotes": 1,
+        "created_at": "2024-11-03T09:16:58+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1giiz2u/freelance_analyst_available_data_insights_to/",
+        "comments": [
+            {
+                "author": "Snoop_Doge007",
+                "content": "What kind of analysis do you rely on for cost optimization/reduction?",
+                "upvotes": 1,
+                "created_at": "2024-11-08T05:37:35+00:00"
+            }
+        ]
+    },
+    {
+        "id": "1ge3e1p",
+        "title": "3PL in NL",
+        "content": "The USA based company I work for is expanding on a project that will be delivering products across Benelux.  I am looking for recommendations for midsize 3PL companies located in NL. If you have any experience with what companies to avoid, that would also be helpful. ",
+        "subreddit": "logistics",
+        "author": "Brilliant-Law-2180",
+        "upvotes": 1,
+        "created_at": "2024-10-28T14:27:10+00:00",
+        "url": "https://www.reddit.com/r/logistics/comments/1ge3e1p/3pl_in_nl/",
+        "comments": [
+            {
+                "author": "AutoModerator",
+                "content": "This post was made by /u/Brilliant-Law-2180 whom does not meet the the minimum karma requirement that is readily available in this subreddit rules. This rule exists to encourage posters to be users whom contribute to the subreddit in the comments before posting to everyone in this subreddit. Please participate before posting.\n\n*I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/logistics) if you have any questions or concerns.*",
+                "upvotes": 1,
+                "created_at": "2024-10-28T14:27:10+00:00"
+            }
+        ]
+    }
+]

@@ -1,8 +1,17 @@
 import json
 
-
-with open('./data/scraped_posts.json', 'r') as file:
+with open('./data/scraped_data.json', 'r') as file:
     data = json.load(file)
+
+input_file = "./data/scraped_data.json"
+output_file = "./data/cleaned_posts.json"
+
+limit = 2500
+
+if isinstance(data, list):
+    data = data[:limit]
+else:
+    raise ValueError("The JSON file does not contain a list.")
 
 def remove_duplicates(posts):
     seen_titles = {}
@@ -22,7 +31,7 @@ def remove_duplicates(posts):
 
 unique_data = remove_duplicates(data)
 
-with open('./data/cleaned_posts.json', 'w') as file:
+with open(output_file, 'w') as file:
     json.dump(unique_data, file, indent=4)
 
-print("Duplicates removed and data saved to 'cleaned_posts.json'.")
+print("Duplicates removed and data saved to 'cleaned_posts_1.json'.")

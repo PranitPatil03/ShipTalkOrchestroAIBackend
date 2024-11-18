@@ -150,12 +150,26 @@ def fetch_comments(submission, max_comments=5):
 def categorize_post(title):
     """Categorize a post based on keywords in the title."""
     categories = {
-        "logistics": ["logistics", "supply chain", "warehouse"],
-        "freight": ["freight", "shipping", "transportation"],
-        "packaging": ["packaging", "sustainable", "eco-friendly"],
-        "inventory": ["inventory", "management", "stock"],
-        "last-mile": ["last mile", "delivery", "final mile"],
+    "Parcel Shipping": ["parcel shipping", "package shipping", "parcel delivery", "package transit"],
+    "Sustainable Packaging": ["eco-friendly packaging", "sustainable packaging", "green packaging"],
+    "Last Mile Innovation": ["last mile delivery", "last mile solutions", "final delivery stage"],
+    "Integration": ["system integration", "platform integration", "integration with"],
+    "Carrier Solutions": ["carrier options", "carrier comparison", "shipping carriers", "freight carriers"],
+    "Eco-Friendly": ["eco-friendly", "environmentally friendly", "sustainable", "green"],
+    "3-2-1 Shipping": ["3-2-1 shipping", "3-2-1 logistics"],
+    "Just-In-Time Inventory": ["just-in-time inventory", "JIT inventory", "inventory management"],
+    "Cross-Docking": ["cross-docking", "dock transfer", "direct unloading"],
+    "Distributed Inventory": ["distributed inventory", "inventory distribution", "regional inventory"],
+    "Last-Mile Delivery Solutions": ["last-mile solutions", "last-mile logistics", "final mile delivery"],
+    "Freight Consolidation": ["freight consolidation", "shipment consolidation", "consolidated freight"],
+    "Dynamic Routing": ["dynamic routing", "adaptive routing", "route optimization"],
+    "Third-Party Logistics (3PL)": ["third-party logistics", "3PL", "outsourced logistics"],
+    "Seasonal Planning": ["seasonal planning", "holiday planning", "peak season planning"],
+    "Cycle Counting": ["cycle counting", "inventory counting", "inventory auditing"],
+    "Sales and Operations Planning (S&OP)": ["sales and operations planning", "S&OP", "sales planning"],
+        "Cost-to-Serve Analysis": ["cost-to-serve", "cost analysis", "serve cost analysis"],
     }
+
     for category, keywords in categories.items():
         if any(keyword in title for keyword in keywords):
             return category

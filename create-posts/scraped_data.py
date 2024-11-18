@@ -13,9 +13,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 load_dotenv()
 
-REDDIT_CLIENT_ID = 'VMEp44xTVtl0lgUGbjSBcQ'
-REDDIT_CLIENT_SECRET = 'wMRISmcP_vxrtXMLqFFW-Mpr0n0uWg'
-REDDIT_USER_AGENT = 'RedditScraper:v1.0 (by /u/pranit3112)'
+REDDIT_CLIENT_ID = os.getenv('REDDIT_CLIENT_ID')
+REDDIT_CLIENT_SECRET = os.getenv('REDDIT_CLIENT_SECRET')
+REDDIT_USER_AGENT = os.getenv('REDDIT_USER_AGENT')
 
 reddit = praw.Reddit(
     client_id=REDDIT_CLIENT_ID,

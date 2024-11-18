@@ -15,8 +15,8 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 ChatCompletion.api_key = OPENAI_API_KEY
 
-FILTERED_DATA_FILE = "./data/filtered_posts.json"
-OUTPUT_POSTS_FILE = "./data/final_posts.json"
+FILTERED_DATA_FILE = "./data/filter_data.json"
+OUTPUT_POSTS_FILE = "./data/ready_posts.json"
 
 def load_data(file_path):
     try:
@@ -75,25 +75,36 @@ def paraphrase_content(content):
 
 def process_content(posts):
     for index, post in enumerate(posts):  
+        if index >= 10:  # Limit to 10 posts
+            logging.info("Processed 10 posts, stopping further processing.")
+            break
         logging.info(f"Processing post ID: {index + 1}")  
         post["content"] = paraphrase_content(clean_content(post["content"]))
     return posts
-
-def generate_test_posts(num_posts=10):
-    """Generate a list of test posts."""
-    return [{"content": f"This is test post number {i + 1}."} for i in range(num_posts)]
 
 def main():
     filtered_data = load_data(FILTERED_DATA_FILE)
 
     if not filtered_data:
         logging.info("No data found. Generating test posts.")
-        filtered_data = generate_test_posts(10)  
+        filtered_data = process_content(filtered_data)  
 
     created_posts = process_content(filtered_data)
 
     save_data(created_posts, OUTPUT_POSTS_FILE)
 
+    # New functionality to clean the created posts
+    cleaned_posts = remove_id_fields(created_posts)  # Call the new function to remove 'id' and '_id'
+    save_data(cleaned_posts, './data/final_posts.json')  # Save cleaned data to the specified output file
+
+def remove_id_fields(data):
+    """Remove 'id' and '_id' fields from each post."""
+    for post in data:
+        if 'id' in post:
+            del post['id']
+        if '_id' in post:
+            del post['_id']
+    return data
 
 if __name__ == "__main__":
     main()
