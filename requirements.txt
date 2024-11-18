@@ -53,3 +53,10 @@ urllib3==2.2.3
 uvicorn==0.30.6
 watchfiles==0.24.0
 websockets==13.0.1
+fastapi==0.95.1
+uvicorn==0.22.0
+sqlalchemy==2.0.15
+pydantic==2.1.1
+openai==0.28.1
+requests==2.31.0
+python-dotenv==1.0.0

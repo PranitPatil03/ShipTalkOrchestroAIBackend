@@ -1,0 +1,151 @@
+# Ship Talk
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/PranitPatil03/ShipTalkOrchestroAIBackend.git
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Add your environment variables to the `.env` file.
+4. Run the application:
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+## API Endpoints
+
+### Health Check
+
+- **Endpoint**: `GET /healthcheck`
+- **Description**: Check if the server is running.
+- **Request Body**: None
+- **Response**:
+  ```json
+  { "status": "healthy" }
+  ```
+
+---
+
+### Posts
+
+#### Get All Posts
+
+- **Endpoint**: `GET /get_all_posts/`
+- **Description**: Retrieve all posts with optional search and sort functionality.
+- **Query Parameters**: `search` (optional), `sort_by` (optional), `limit`, `offset`
+- **Request Body**: None
+- **Response**:
+  ```json
+  [{ "id": string, "title": string, "content": string, ... }]
+  ```
+
+#### Get Post by ID
+
+- **Endpoint**: `GET /get_post/{post_id}`
+- **Description**: Retrieve details of a specific post.
+- **Request Body**: None
+- **Response**:
+  ```json
+  { "id": string, "title": string, "content": string, ... }
+  ```
+
+#### Upload Post
+
+- **Endpoint**: `POST /upload_post/`
+- **Description**: Create a new post.
+- **Request Body**:
+  ```json
+  { "title": string, "content": string, ... }
+  ```
+- **Response**:
+  ```json
+  { "message": "Post created successfully", "post_id": string }
+  ```
+
+#### Delete Post
+
+- **Endpoint**: `DELETE /delete_post/{post_id}`
+- **Description**: Delete a specific post.
+- **Request Body**: None
+- **Response**:
+  ```json
+  { "message": "Post deleted successfully" }
+  ```
+
+#### Like Post
+
+- **Endpoint**: `GET /like_post/{post_id}`
+- **Description**: Upvote a specific post.
+- **Request Body**: None
+- **Response**:
+  ```json
+  { "message": "Post liked successfully", "upvotes": int }
+  ```
+
+---
+
+### Comments
+
+#### Get Comment by ID
+
+- **Endpoint**: `GET /get_comment/{comment_id}`
+- **Description**: Retrieve details of a specific comment.
+- **Request Body**: None
+- **Response**:
+  ```json
+  { "id": string, "content": string, "post_id": string, ... }
+  ```
+
+#### Upload Comment
+
+- **Endpoint**: `POST /upload_comment/{post_id}`
+- **Description**: Add a comment to a post.
+- **Request Body**:
+  ```json
+  { "content": string }
+  ```
+- **Response**:
+  ```json
+  { "message": "Comment added successfully", "comment_id": string }
+  ```
+
+#### Like Comment
+
+- **Endpoint**: `GET /like_comment/{post_id}/{comment_id}`
+- **Description**: Upvote a specific comment.
+- **Request Body**: None
+- **Response**:
+  ```json
+  { "message": "Comment liked successfully", "upvotes": int }
+  ```
+
+#### Delete Comment
+
+- **Endpoint**: `DELETE /delete_comment/{post_id}/{comment_id}`
+- **Description**: Delete a specific comment.
+- **Request Body**: None
+- **Response**:
+  ```json
+  { "message": "Comment deleted successfully" }
+  ```
+
+---
+
+### AI Chatbot
+
+#### Chat with AI
+
+- **Endpoint**: `POST /AI_bot/`
+- **Description**: Ask a question to the AI chatbot and receive related posts.
+- **Request Body**:
+  ```json
+  { "question": string }
+  ```
+- **Response**:
+  ```json
+  { "answer": string, "related_posts": [{ "id": string, "title": string, ... }] }
+  ```

@@ -11,7 +11,6 @@ from openai import RateLimitError
 
 Base.metadata.create_all(bind=engine)
 
-
 app = FastAPI()
 
 app.add_middleware(
@@ -34,12 +33,11 @@ def healthcheck(request: Request):
 @app.get("/get_posts/")
 def get_posts(
     search: str = "",
-    sort_by: str = "created_at",  # Default sorting by created_at
+    sort_by: str = "created_at",  
     limit: int = 10,
     offset: int = 0,
     db=Depends(get_db),
 ):
-    # Determine the sorting attribute
     if sort_by not in [
         "created_at",
         "upvotes",
@@ -47,8 +45,6 @@ def get_posts(
         "category",
     ]:
         sort_by = "created_at"
-
-    # get db url
 
     query = db.query(Post)
 
@@ -62,7 +58,6 @@ def get_posts(
     elif sort_by == "title":
         query = query.order_by(Post.title.asc())
 
-    # Pagination
     posts = query.limit(limit).offset(offset).all()
 
     total_posts = db.query(Post).count()
@@ -78,7 +73,7 @@ def get_posts(
 @app.post("/upload_post/", status_code=status.HTTP_201_CREATED)
 def upload_post(post: PostBase, db=Depends(get_db)):
     try:
-        post_data = post.model_dump()  # Validate the input data
+        post_data = post.model_dump()  
         db_post = Post(**post_data)
 
         db.add(db_post)
@@ -200,7 +195,7 @@ def delete_post(post_id: str, db=Depends(get_db)):
 @app.post("/upload_comment/{post_id}")
 def upload_comment(post_id: str, comment: CommentBase, db: Session = Depends(get_db)):
     try:
-        comment_data = comment.model_dump()  # Validate the input data
+        comment_data = comment.model_dump()  
         comment_data["post_id"] = post_id
         db_comment = Comment(**comment_data)
 
@@ -308,3 +303,33 @@ def AI_bot(question: QuestionBase, request: Request, db: Session = Depends(get_d
         raise HTTPException(status_code=429, detail=f"Rate limit exceeded: {str(e)}")
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/get_all_posts/")
+def get_all_posts(
+    search: str = "",
+    sort_by: str = "created_at",  
+    db: Session = Depends(get_db),
+):
+    valid_sort_fields = ["created_at", "upvotes", "title"]
+    if sort_by not in valid_sort_fields:
+        sort_by = "created_at"
+
+    query = db.query(Post)
+
+    if search:
+        query = query.filter(Post.title.ilike(f"%{search}%"))
+
+    if sort_by == "created_at":
+        query = query.order_by(Post.created_at.desc())
+    elif sort_by == "upvotes":
+        query = query.order_by(Post.upvotes.desc())
+    elif sort_by == "title":
+        query = query.order_by(Post.title.asc())
+
+    posts = query.all()
+
+    return {
+        "posts": posts,  
+        "total_posts": len(posts),
+    }
