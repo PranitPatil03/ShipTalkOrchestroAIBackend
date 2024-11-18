@@ -205,3 +205,18 @@
       "total_posts": 10
     }
     ```
+
+### Post Creation and Database Population
+
+#### Generating Posts
+```bash
+python create-post/main.py
+```
+This script generates `final_posts.json` in the `data` folder containing posts.
+
+#### Adding Posts to Database
+```bash
+python Script/add_all_posts.py
+```
+Adds all posts from `final_posts.json` to the application's database.
+
