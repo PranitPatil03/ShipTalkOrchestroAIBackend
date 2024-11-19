@@ -220,3 +220,7 @@ python Script/add_all_posts.py
 ```
 Adds all posts from `final_posts.json` to the application's database.
 
+#### All Posts
+
+All posts can be viewed in ./data/final_posts.json
+
